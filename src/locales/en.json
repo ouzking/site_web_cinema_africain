@@ -1,0 +1,128 @@
+{
+  "about": {
+    "title": "About",
+    "subtitle": "The African Network of Cinema Exhibitors and Distributors, a key player in contemporary African cinema.",
+    "imageAlt": "African cinema",
+    "paragraph1": "Founded in 2021, REDA is a Senegalese-based association headquartered in Dakar, bringing together exhibitors and distributors from five African countries.",
+    "paragraph2": "Our mission is to preserve, develop and promote African cinemas while giving African films a central place.",
+    "paragraph3": "REDA positions itself as a reliable and structured partner for film distribution and exhibition in Africa.",
+    "highlight": "A demanding program, strong cultural commitment and a high-quality cinema experience.",
+    "stats": {
+      "countries": "Countries covered",
+      "cinemas": "Cinema complexes",
+      "screens": "Active screens",
+      "seats": "Seats"
+    }
+  },
+     "header": {
+    "tagline": "African Cinema"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "missions": "Missions",
+    "activities": "Activities",
+    "network": "Network",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Network of African Cinema Exhibitors and Distributors",
+    "description": "Uniting African cinemas to promote, distribute and showcase African and francophone film productions to all audiences.",
+    "cta": {
+      "discover": "Discover REDA",
+      "contact": "Contact us"
+    }
+  },
+  "missions": {
+    "title": {
+      "prefix": "Our",
+      "highlight": "Missions"
+    },
+    "subtitle": "A clear and ambitious vision to structure, develop and strengthen the African cinema ecosystem.",
+    "items": {
+      "structuring": {
+        "title": "Industry structuring",
+        "description": "To sustainably structure film exhibition and distribution in Africa by bringing stakeholders together around common professional standards."
+      },
+      "valuation": {
+        "title": "Promotion of productions",
+        "description": "To defend and promote African and francophone productions and build a viable and sustainable economic model around them."
+      },
+      "distribution": {
+        "title": "Distribution strengthening",
+        "description": "To consolidate film distribution in Africa in order to improve the circulation of works across the continent and internationally."
+      },
+      "digital": {
+        "title": "Digital transition",
+        "description": "To support the digitalization and modernization of African cinemas to meet contemporary technical requirements."
+      }
+    }
+  },
+  "network": {
+    "title": "Our Network",
+    "subtitle": "A pan-African network of committed cinemas",
+    "countries": {
+      "senegal": "Senegal",
+      "mali": "Mali",
+      "burkina": "Burkina Faso",
+      "cameroon": "Cameroon",
+      "ivoryCoast": "Ivory Coast"
+    },
+    "headOffice": {
+      "title": "Head Office",
+      "subtitle": "– African Exhibitors and Distributors Network",
+      "address1": "Cinéma Médina, 13 x Blaise Diagne Street",
+      "address2": "Medina, Dakar, Senegal"
+    }
+  },
+  "activities": {
+    "title": {
+      "part1": "Our",
+      "part2": "Activities"
+    },
+    "subtitle": "Structured and sustainable actions supporting the development of African cinema and its audiences.",
+    "items": {
+      "training": {
+        "title": "Training & Knowledge Sharing",
+        "description": "Continuous training programs for cinema operators, projectionists and professionals to strengthen technical and managerial skills."
+      },
+      "releases": {
+        "title": "Coordinated Releases",
+        "description": "Coordination of joint releases of African, Francophone and international films across the cinema network."
+      },
+      "monitoring": {
+        "title": "Strategic Monitoring",
+        "description": "Monitoring technological developments and sharing key information on innovations and global cinema trends."
+      },
+      "events": {
+        "title": "Cultural Events",
+        "description": "Organization of major cultural events and retrospectives celebrating iconic figures of African cinema."
+      }
+    },
+    "focus": {
+      "title": "Tribute to Sembène Ousmane",
+      "description": "In 2023, REDA celebrated the centenary of Sembène Ousmane with an exceptional retrospective across its cinema network."
+    }
+  },
+   "footer": {
+    "tagline": "African Cinema",
+    "description": "African Network of Cinema Exhibitors and Distributors. A pan-African platform dedicated to promoting, distributing and sustaining African and global cinema.",
+    "navigation": "Navigation",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "missions": "Missions",
+      "activities": "Activities",
+      "network": "Network"
+    },
+    "contact": {
+      "title": "Contact",
+      "cinema": "Medina Cinema",
+      "address1": "13 Blaise Diagne Street",
+      "address2": "Medina, Dakar – Senegal"
+    },
+    "rights": "All rights reserved",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy"
+  }
+}

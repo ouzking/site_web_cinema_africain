@@ -1,0 +1,128 @@
+{
+  "about": {
+    "title": "Ci mbirum",
+    "subtitle": "REDA mooy réseau bu jëfandikukat ak jëfandikoo sinemaa yi ci Afrik.",
+    "imageAlt": "Sinemaa Afrik",
+    "paragraph1": "REDA sos nañu ko ci 2021, mu bokk ci Sénégal te am na ay jëfandikukat ak jëfandikoo film yu jóge ci juróom réew yu Afrik.",
+    "paragraph2": "Sunuy misiyaan mooy aar, yokk te valoriser sinemaa yi ci Afrik.",
+    "paragraph3": "REDA di liggéey ni partner bu wér ngir jëfandikoo ak jëfandikukat film yi.",
+    "highlight": "Programm bu rafet, liggéey bu am solo ak expérience sinemaa bu baax ngir askan wi.",
+    "stats": {
+      "countries": "Réew yi",
+      "cinemas": "Complexes sinemaa",
+      "screens": "Écran yi",
+      "seats": "Toggoo yi"
+    }
+  },
+     "header": {
+    "tagline": "Sinemaa Afrik"
+  },
+  "nav": {
+    "home": "Dalal ak jàmm",
+    "about": "Ci mbirum",
+    "missions": "Sunuy misiyaan",
+    "activities": "Sunuy liggéey yi",
+    "network": "Réseau",
+    "contact": "Jokkoo"
+  },
+   "hero": {
+    "subtitle": "Réseau bu sinemaa Afrik",
+    "description": "Dencoo sinemaa yu Afrik ngir wàccal, wone ak jàppale liggéeyu film yu Afrik ak yu franse ci askan wi yépp.",
+    "cta": {
+      "discover": "Xamle REDA",
+      "contact": "Jokkoo ak ñun"
+    }
+  },
+  "missions": {
+    "title": {
+      "prefix": "Sunuy",
+      "highlight": "Mission"
+    },
+    "subtitle": "Yeneen xalaat bu leer te am doole ngir tabax, yokk te dëgëral ecosystème sinemaa bu Afrik.",
+    "items": {
+      "structuring": {
+        "title": "Tabaxu secteur bi",
+        "description": "Tabax bu sax liggéeyu sinemaa ak joxantu film ci Afrik, jàppandoo ak liggéeykat yi ci ndigal yu wér."
+      },
+      "valuation": {
+        "title": "Jàppale liggéey yi",
+        "description": "Defar ak wone film yu Afrik ak yu franse te sos am économie bu sax ak bu wér."
+      },
+      "distribution": {
+        "title": "Dëgëralaat joxantu film",
+        "description": "Dëgëralaat rôle distributeur film ci Afrik ngir yokk doxalin liggéey yi ci kontinaa ak àdduna bi."
+      },
+      "digital": {
+        "title": "Numérisation",
+        "description": "Jàppale modernisation ak numérisation sinemaa yu Afrik ngir wuutu soxla yu teknoloogik yu bees."
+      }
+    }
+  },
+   "network": {
+    "title": "Sunuy Réseau",
+    "subtitle": "Réseau panafrik bu sinemaa yi bokk ci liggéey",
+    "countries": {
+      "senegal": "Senegaal",
+      "mali": "Mali",
+      "burkina": "Burkina Faso",
+      "cameroon": "Kamerun",
+      "ivoryCoast": "Kot diwaar"
+    },
+    "headOffice": {
+      "title": "Siège bi",
+      "subtitle": "– Réseau Exploitants ak Distributeurs Afrik",
+      "address1": "Cinéma Médina, Rue 13 x Blaise Diagne",
+      "address2": "Médina, Dakar, Senegaal"
+    }
+  },
+  "activities": {
+    "title": {
+      "part1": "Sunuy",
+      "part2": "Liggéey yi"
+    },
+    "subtitle": "Ay liggéey yu am solo te di yokk sinemaa Afrik ak askan wi.",
+    "items": {
+      "training": {
+        "title": "Formation ak Jàngat",
+        "description": "Program yu jàngalekat ngir jëfandikukat ak projectionniste yi ngir yokk seen xam-xam."
+      },
+      "releases": {
+        "title": "Sorti yu bokk",
+        "description": "Coordination bu sorti film yu Afrik, francophone ak yu àdduna bi ci réseau sinemaa yi."
+      },
+      "monitoring": {
+        "title": "Veille stratégique",
+        "description": "Toppandoo yeneen technologie yi ak xibaar yu am solo ci àdduna sinemaa."
+      },
+      "events": {
+        "title": "Événement yu culture",
+        "description": "Organisation d’événements ak rétrospectives ngir valoriser sinemaa Afrik."
+      }
+    },
+    "focus": {
+      "title": "Hommage à Sembène Ousmane",
+      "description": "Ci 2023, REDA def na hommage Sembène Ousmane ak rétrospective bu rëy ci sinemaa yi."
+    }
+  },
+  "footer": {
+    "tagline": "Sinemaa Afrik",
+    "description": "REDA mooy réseau bu jëfandikukat ak jëfandikoo sinemaa yi ci Afrik. Platform bu Afrik bépp ngir valoriser ak yokk sinemaa yi.",
+    "navigation": "Navigation",
+    "nav": {
+      "home": "Dalal ak jàmm",
+      "about": "Ci mbirum",
+      "missions": "Sunuy misiyaan",
+      "activities": "Sunuy liggéey yi",
+      "network": "Réseau"
+    },
+    "contact": {
+      "title": "Jokkoo",
+      "cinema": "Cinéma Médina",
+      "address1": "Rue 13 x Blaise Diagne",
+      "address2": "Médina, Dakar – Sénégal"
+    },
+    "rights": "Yépp àqu yi ñu aar",
+    "legal": "Yoon ak àtte yi",
+    "privacy": "Politique bu sutura"
+  }
+}

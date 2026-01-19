@@ -1,0 +1,129 @@
+{
+
+  "about": {
+    "title": "À propos de",
+    "subtitle": "Le Réseau d’Exploitants de salles et de Distributeurs africains, acteur stratégique du cinéma africain contemporain.",
+    "imageAlt": "Cinéma africain",
+    "paragraph1": "Créé en 2021, le REDA est une association de droit sénégalais basée à Dakar, regroupant des exploitants et distributeurs de cinq pays africains : Sénégal, Mali, Burkina Faso, Côte d’Ivoire et Cameroun.",
+    "paragraph2": "Notre mission est de préserver, développer et valoriser les salles de cinéma africaines, tout en offrant une place centrale aux œuvres du continent.",
+    "paragraph3": "REDA se positionne comme un partenaire fiable, crédible et structurant pour la distribution et l’exploitation des contenus africains et internationaux.",
+    "highlight": "Une programmation exigeante, un engagement culturel fort et une expérience cinéma de qualité pour le public africain.",
+    "stats": {
+      "countries": "Pays couverts",
+      "cinemas": "Complexes cinéma",
+      "screens": "Écrans actifs",
+      "seats": "Fauteuils"
+    }
+  },
+"header": {
+    "tagline": "Cinéma Africain"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "missions": "Missions",
+    "activities": "Activités",
+    "network": "Réseau",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Réseau des Exploitants et Distributeurs Africains",
+    "description": "Unir les salles de cinéma d’Afrique pour valoriser, diffuser et promouvoir les productions africaines et francophones auprès de tous les publics.",
+    "cta": {
+      "discover": "Découvrir REDA",
+      "contact": "Nous contacter"
+    }
+  },
+  "missions": {
+    "title": {
+      "prefix": "Nos",
+      "highlight": "Missions"
+    },
+    "subtitle": "Une vision claire et ambitieuse pour structurer, développer et renforcer l’écosystème du cinéma africain.",
+    "items": {
+      "structuring": {
+        "title": "Structuration du secteur",
+        "description": "Structurer durablement l’exploitation et la distribution cinématographique en Afrique en fédérant les acteurs autour de standards professionnels communs."
+      },
+      "valuation": {
+        "title": "Valorisation des productions",
+        "description": "Défendre et valoriser les productions africaines et francophones, et construire autour d’elles une économie viable et pérenne."
+      },
+      "distribution": {
+        "title": "Renforcement de la distribution",
+        "description": "Consolider la fonction de distributeur de films en Afrique afin d’assurer une meilleure circulation des œuvres sur le continent et à l’international."
+      },
+      "digital": {
+        "title": "Transition numérique",
+        "description": "Accompagner la numérisation et la modernisation des salles de cinéma africaines pour répondre aux exigences techniques contemporaines."
+      }
+    }
+  },
+  "network": {
+    "title": "Notre Réseau",
+    "subtitle": "Un réseau panafricain de salles de cinéma engagées",
+    "countries": {
+      "senegal": "Sénégal",
+      "mali": "Mali",
+      "burkina": "Burkina Faso",
+      "cameroon": "Cameroun",
+      "ivoryCoast": "Côte d’Ivoire"
+    },
+    "headOffice": {
+      "title": "Siège social",
+      "subtitle": "– Réseau des Exploitants et Distributeurs Africains",
+      "address1": "Cinéma Médina, Rue 13 x Blaise Diagne",
+      "address2": "Médina, Dakar, Sénégal"
+    }
+  },
+  "activities": {
+    "title": {
+      "part1": "Nos",
+      "part2": "Activités"
+    },
+    "subtitle": "Des actions structurantes et durables au service du développement du cinéma africain et de ses publics.",
+    "items": {
+      "training": {
+        "title": "Formation & Transmission",
+        "description": "Programmes de formation continue dédiés aux exploitants, projectionnistes et acteurs du secteur afin de renforcer les compétences techniques et managériales."
+      },
+      "releases": {
+        "title": "Sorties concertées",
+        "description": "Coordination de sorties communes de films africains, francophones et internationaux à travers l’ensemble du réseau de salles."
+      },
+      "monitoring": {
+        "title": "Veille stratégique",
+        "description": "Suivi des évolutions technologiques et diffusion d’informations clés sur les innovations et l’actualité du cinéma mondial."
+      },
+      "events": {
+        "title": "Événements culturels",
+        "description": "Organisation d’événements majeurs et de rétrospectives valorisant les figures et œuvres emblématiques du cinéma africain."
+      }
+    },
+    "focus": {
+      "title": "Hommage à Sembène Ousmane",
+      "description": "En 2023, le REDA a célébré le centenaire de Sembène Ousmane à travers une rétrospective exceptionnelle de ses œuvres dans l’ensemble de son réseau de salles."
+    }
+  },
+  "footer": {
+    "tagline": "Cinéma Africain",
+    "description": "Réseau des Exploitants et Distributeurs Africains. Une plateforme panafricaine dédiée à la valorisation, la diffusion et la pérennisation des cinémas d’Afrique et du monde.",
+    "navigation": "Navigation",
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "missions": "Missions",
+      "activities": "Activités",
+      "network": "Réseau"
+    },
+    "contact": {
+      "title": "Contact",
+      "cinema": "Cinéma Médina",
+      "address1": "Rue 13 x Blaise Diagne",
+      "address2": "Médina, Dakar – Sénégal"
+    },
+    "rights": "Tous droits réservés",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité"
+  }
+}
