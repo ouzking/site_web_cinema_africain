@@ -10,8 +10,8 @@
     "highlight": "Une programmation exigeante, un engagement culturel fort et une expérience cinéma de qualité pour le public africain.",
     "stats": {
       "countries": "Pays couverts",
-      "cinemas": "Complexes cinéma",
-      "screens": "Écrans actifs",
+      "cinemas": "salles",
+      "screens": "Écrans",
       "seats": "Fauteuils"
     }
   },
@@ -23,6 +23,7 @@
     "about": "À propos",
     "missions": "Missions",
     "activities": "Activités",
+    "news": "Actualités",
     "network": "Réseau",
     "contact": "Contact"
   },
@@ -33,6 +34,17 @@
       "discover": "Découvrir REDA",
       "contact": "Nous contacter"
     }
+  },
+  "news": {
+    "title": "Actualités & Activités",
+    "subtitle": "Découvrez nos projets, activités et événements majeurs à travers le réseau REDA.",
+    "filters": {
+      "all": "Tout",
+      "activities": "Activités",
+      "projects": "Projets",
+      "events": "Événements"
+    },
+    "readMore": "Lire la suite"
   },
   "missions": {
     "title": {

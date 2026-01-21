@@ -9,8 +9,8 @@
     "highlight": "A demanding program, strong cultural commitment and a high-quality cinema experience.",
     "stats": {
       "countries": "Countries covered",
-      "cinemas": "Cinema complexes",
-      "screens": "Active screens",
+      "cinemas": "Cinemas",
+      "screens": "screens",
       "seats": "Seats"
     }
   },
@@ -22,6 +22,7 @@
     "about": "About",
     "missions": "Missions",
     "activities": "Activities",
+    "news": "News",
     "network": "Network",
     "contact": "Contact"
   },
@@ -57,6 +58,17 @@
         "description": "To support the digitalization and modernization of African cinemas to meet contemporary technical requirements."
       }
     }
+  },
+  "news": {
+    "title": "News & Activities",
+    "subtitle": "Explore our key projects, activities, and major events across the REDA network.",
+    "filters": {
+      "all": "All",
+      "activities": "Activities",
+      "projects": "Projects",
+      "events": "Events"
+    },
+    "readMore": "Read more"
   },
   "network": {
     "title": "Our Network",

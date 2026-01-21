@@ -44,7 +44,8 @@ export default function Header() {
     { href: "#accueil", label: t("nav.home") },
     { href: "#a-propos", label: t("nav.about") },
     { href: "#missions", label: t("nav.missions") },
-    { href: "#activites", label: t("nav.activities") },
+   
+    { href: "#actualites", label: t("nav.news") },
     { href: "#reseau", label: t("nav.network") },
     { href: "#contact", label: t("nav.contact") },
   ];

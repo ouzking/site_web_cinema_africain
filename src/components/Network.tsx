@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import image1 from "../assets/dakar.jpg";
 import image2 from "../assets/mali.jpg";
 import image3 from "../assets/burkinaa.jpg";
-import image4 from "../assets/camerounn.jpg";
+import image4 from "../assets/camerun.jpg";
 import image5 from "../assets/burkina.jpg";
 
 
@@ -17,7 +17,7 @@ export default function Network() {
     { key: "mali", flag: "🇲🇱", image: image2 },
     { key: "burkina", flag: "🇧🇫", image: image5 },
     { key: "cameroon", flag: "🇨🇲", image: image4 },
-    { key: "ivoryCoast", flag: "🇨i", image: image3 },
+    { key: "ivoryCoast", flag: "🇨🇮", image: image3 },
   ];
 
   return (

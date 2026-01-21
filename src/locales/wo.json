@@ -9,7 +9,7 @@
     "highlight": "Programm bu rafet, liggéey bu am solo ak expérience sinemaa bu baax ngir askan wi.",
     "stats": {
       "countries": "Réew yi",
-      "cinemas": "Complexes sinemaa",
+      "cinemas": "Sall yu sinemaa",
       "screens": "Écran yi",
       "seats": "Toggoo yi"
     }
@@ -22,6 +22,7 @@
     "about": "Ci mbirum",
     "missions": "Sunuy misiyaan",
     "activities": "Sunuy liggéey yi",
+    "news": "Xibaar yi",
     "network": "Réseau",
     "contact": "Jokkoo"
   },
@@ -57,6 +58,17 @@
         "description": "Jàppale modernisation ak numérisation sinemaa yu Afrik ngir wuutu soxla yu teknoloogik yu bees."
       }
     }
+  },
+  "news": {
+    "title": "Xibaar yi ak Jëfandikoo yi",
+    "subtitle": "Xoolal sunu jëfandikoo yi, poroje yi ak ay xew-xew yu mag ci réseau REDA.",
+    "filters": {
+      "all": "Lépp",
+      "activities": "Jëfandikoo yi",
+      "projects": "Poroje yi",
+      "events": "Xew-xew yi"
+    },
+    "readMore": "Gën a xool"
   },
    "network": {
     "title": "Sunuy Réseau",

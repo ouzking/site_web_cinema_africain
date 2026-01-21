@@ -2,7 +2,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Missions from './components/Missions';
-import Activities from './components/Activities';
+//import Activities from './components/Activities';
+import Actualites from './components/Actualites';
 import Network from './components/Network';
 import Footer from './components/Footer';
 
@@ -13,7 +14,8 @@ function App() {
       <Hero />
       <About />
       <Missions />
-      <Activities />
+      
+       <Actualites />
       <Network />
       <Footer />
     </div>
