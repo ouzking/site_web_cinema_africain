@@ -4,9 +4,9 @@ import { useTranslation } from "react-i18next";
 
 import image1 from "../assets/dakar.jpg";
 import image2 from "../assets/mali.jpg";
-import image3 from "../assets/burkinaa.jpg";
+import image3 from "../assets/ivoire.jpeg";
 import image4 from "../assets/camerun.jpg";
-import image5 from "../assets/burkina.jpg";
+import image5 from "../assets/camerounn.jpg";
 
 
 export default function Network() {
