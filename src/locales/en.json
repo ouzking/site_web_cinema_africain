@@ -68,7 +68,13 @@
       "projects": "Projects",
       "events": "Events"
     },
-    "readMore": "Read more"
+    "badge": {
+      "highlight": "Major project"
+    },
+    "description": "This project is part of REDA’s strategy to structure and strengthen the African cinema ecosystem.",
+    "readMore": "Read more",
+    "viewDocument": "View official document",
+    "noDocument": "Details coming soon"
   },
   "network": {
     "title": "Our Network",

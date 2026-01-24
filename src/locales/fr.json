@@ -44,7 +44,14 @@
       "projects": "Projets",
       "events": "Événements"
     },
-    "readMore": "Lire la suite"
+    "badge": {
+      "highlight": "Projet majeur"
+    },
+
+    "description": "Projet inscrit dans la stratégie de structuration du réseau REDA et du développement du cinéma africain.",
+    "readMore": "Lire la suite",
+    "viewDocument": "Consulter le document officiel",
+    "noDocument": "Détails à venir"
   },
   "missions": {
     "title": {
@@ -119,7 +126,7 @@
   },
   "footer": {
     "tagline": "Cinéma Africain",
-    "description": "Réseau des Exploitants et Distributeurs Africains. Une plateforme panafricaine dédiée à la valorisation, la diffusion et la pérennisation des cinémas d’Afrique et du monde.",
+    "description": "Réseau des Exploitants et Distributeurs Africains. Une plateforme panafricaine dédiée à la valorisation, la diffusion et la valorisation des cinémas d’Afrique et du monde.",
     "navigation": "Navigation",
     "nav": {
       "home": "Accueil",

@@ -68,7 +68,14 @@
       "projects": "Poroje yi",
       "events": "Xew-xew yi"
     },
-    "readMore": "Gën a xool"
+    "badge": {
+      "highlight": "Projet bu mag"
+    },
+
+    "description": "Projet bii bokk na ci strateji REDA ngir dëggal ak suqali liggéeyu cinemaa Afrik.",
+    "readMore": "Gën a xool",
+    "viewDocument": "Xoolal dokimaa bu ofisiel bi",
+    "noDocument": "Leeral yi ñëw nañu"
   },
    "network": {
     "title": "Sunuy Réseau",

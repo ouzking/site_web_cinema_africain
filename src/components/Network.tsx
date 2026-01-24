@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+import { MapPin, ExternalLink, Globe, Facebook } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -7,17 +7,69 @@ import image2 from "../assets/mali.jpg";
 import image3 from "../assets/ivoire.jpeg";
 import image4 from "../assets/camerun.jpg";
 import image5 from "../assets/camerounn.jpg";
-
+import image6 from "../assets/burkinaa.jpg";
+import image7 from "../assets/burkina.jpg";
 
 export default function Network() {
   const { t } = useTranslation();
 
   const countries = [
-    { key: "senegal", flag: "🇸🇳", image: image1 },
-    { key: "mali", flag: "🇲🇱", image: image2 },
-    { key: "burkina", flag: "🇧🇫", image: image5 },
-    { key: "cameroon", flag: "🇨🇲", image: image4 },
-    { key: "ivoryCoast", flag: "🇨🇮", image: image3 },
+    {
+      key: "senegal",
+      flag: "🇸🇳",
+      image: image1,
+      link: "https://www.facebook.com/profile.php?id=61555332957759",
+      linkLabel: "Facebook",
+      linkType: "facebook",
+    },
+    {
+      key: "mali",
+      flag: "🇲🇱",
+      image: image2,
+      link: "https://cinemababemba.com/",
+      linkLabel: "Site officiel",
+      linkType: "website",
+    },
+    {
+      key: "burkina",
+      flag: "🇧🇫",
+      image: image5,
+      link: "https://www.facebook.com/people/Programme-Cin%C3%A9/100064062464140/",
+      linkLabel: "Facebook",
+      linkType: "facebook",
+    },
+    {
+      key: "cameroon",
+      flag: "🇨🇲",
+      image: image4,
+      link: "https://www.facebook.com/EdenCinema.Douala",
+      linkLabel: "Facebook",
+      linkType: "facebook",
+    },
+    {
+      key: "ivoryCoast",
+      flag: "🇨🇮",
+      image: image3,
+      link: "https://mapcarta.com/fr/N3018325470",
+      linkLabel: "Site officiel",
+      linkType: "website",
+    },
+    {
+      key: "burkina",
+      flag: "🇧🇫",
+      image: image6,
+      link: "https://www.cineguimbi.org/",
+      linkLabel: "Site officiel",
+      linkType: "website",
+    },
+    {
+      key: "burkina",
+      flag: "🇧🇫",
+      image: image7,
+      link: "https://www.facebook.com/KarismatikProd/",
+      linkLabel: "Facebook",
+      linkType: "facebook",
+    },
   ];
 
   return (
@@ -44,34 +96,63 @@ export default function Network() {
           </p>
         </motion.div>
 
-        {/* Pays */}
+        {/* Réseau */}
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-20">
           {countries.map((country, index) => (
-            <motion.div
+            <motion.a
               key={country.key}
+              href={country.link}
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group relative h-72 rounded-2xl overflow-hidden shadow-xl cursor-pointer"
+              className="group relative h-72 rounded-2xl overflow-hidden shadow-xl cursor-pointer
+                         focus:outline-none focus:ring-2 focus:ring-amber-500"
             >
+              {/* Image */}
               <img
                 src={country.image}
                 alt={t(`network.countries.${country.key}`)}
-                className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
+
+              {/* Badge */}
+              <div
+                className={`absolute top-4 left-4 flex items-center gap-2 px-3 py-1 text-xs font-semibold rounded-full shadow-lg
+                ${
+                  country.linkType === "website"
+                    ? "bg-emerald-500/90 text-white"
+                    : "bg-blue-600/90 text-white"
+                }`}
+              >
+                {country.linkType === "website" ? (
+                  <Globe size={14} />
+                ) : (
+                  <Facebook size={14} />
+                )}
+                {country.linkLabel}
+              </div>
 
               {/* Contenu */}
-              <div className="absolute bottom-0 left-0 right-0 p-6">
+              <div className="absolute inset-0 flex flex-col justify-end p-6">
                 <div className="text-4xl mb-2">{country.flag}</div>
-                <h3 className="text-xl font-bold text-white tracking-wide">
+                <h3 className="text-xl font-bold text-white tracking-wide mb-2">
                   {t(`network.countries.${country.key}`)}
                 </h3>
+
+                {/* CTA */}
+                <div className="flex items-center gap-2 text-sm text-amber-400 opacity-0
+                                group-hover:opacity-100 transition-opacity">
+                  <span>{t("network.visit")}</span>
+                  <ExternalLink size={14} />
+                </div>
               </div>
-            </motion.div>
+            </motion.a>
           ))}
         </div>
 
