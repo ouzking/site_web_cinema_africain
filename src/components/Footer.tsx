@@ -1,4 +1,4 @@
-import { Mail, MapPin, Film } from "lucide-react";
+import { Mail, MapPin, Film, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -20,12 +20,13 @@ export default function Footer() {
       className="relative bg-gradient-to-b from-black via-gray-950 to-black text-white pt-24 pb-10 overflow-hidden"
     >
       {/* Lumière de fond */}
-      <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_bottom,rgba(255,180,0,0.35),transparent_65%)]"></div>
+      <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_bottom,rgba(255,180,0,0.35),transparent_65%)]" />
 
       <div className="relative container mx-auto px-6">
-        {/* Contenu principal */}
+        {/* ================= CONTENU PRINCIPAL ================= */}
         <div className="grid md:grid-cols-3 gap-16 mb-16">
-          {/* Identité */}
+          
+          {/* ================= IDENTITÉ ================= */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +51,7 @@ export default function Footer() {
             </p>
           </motion.div>
 
-          {/* Navigation */}
+          {/* ================= NAVIGATION ================= */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -66,7 +67,7 @@ export default function Footer() {
                     href={item.href}
                     className="group inline-flex items-center text-gray-400 hover:text-amber-500 transition-colors"
                   >
-                    <span className="w-0 h-px bg-amber-500 mr-0 group-hover:w-6 group-hover:mr-3 transition-all duration-300"></span>
+                    <span className="w-0 h-px bg-amber-500 mr-0 group-hover:w-6 group-hover:mr-3 transition-all duration-300" />
                     {item.label}
                   </a>
                 </li>
@@ -74,7 +75,7 @@ export default function Footer() {
             </ul>
           </motion.div>
 
-          {/* Contact */}
+          {/* ================= CONTACT ================= */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -85,6 +86,7 @@ export default function Footer() {
             </h4>
 
             <div className="space-y-6">
+              {/* Adresse */}
               <div className="flex items-start space-x-4">
                 <MapPin className="text-amber-500 mt-1" />
                 <div className="text-gray-400 leading-relaxed">
@@ -96,6 +98,7 @@ export default function Footer() {
                 </div>
               </div>
 
+              {/* Email */}
               <div className="flex items-center space-x-4">
                 <Mail className="text-amber-500" />
                 <a
@@ -105,11 +108,22 @@ export default function Footer() {
                   contact@reda-afrique.org
                 </a>
               </div>
+
+              {/* Téléphone */}
+              <div className="flex items-center space-x-4">
+                <Phone className="text-amber-500" />
+                <a
+                  href="tel:+221708480548"
+                  className="text-gray-400 hover:text-amber-500 transition-colors font-medium tracking-wide"
+                >
+                  +221 70 848 05 48
+                </a>
+              </div>
             </div>
           </motion.div>
         </div>
 
-        {/* Bas de page */}
+        {/* ================= BAS DE PAGE ================= */}
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="text-gray-500 text-sm tracking-wide">

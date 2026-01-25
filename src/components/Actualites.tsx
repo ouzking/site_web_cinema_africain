@@ -30,18 +30,21 @@ const NEWS = [
     type: "activities",
     title: "Renforcement de capacités des exploitants et projectionnistes africains",
     date: "2026-02-10",
+    document: "/documents/All_Document_REDA_ATELIER_EXPLOITATION_DISTRIBUTION.pdf",
   },
   {
     id: 3,
     type: "events",
     title: "Projections en plein air et médiation culturelle à Dakar",
     date: "2026-02-12",
+    document: "/documents/All_Document_REDA_ATELIER_EXPLOITATION_DISTRIBUTION.pdf",
   },
   {
     id: 4,
     type: "projects",
     title: "Sorties simultanées de films africains dans le réseau REDA – 2026",
     date: "2026-03-01",
+    document: "/documents/All_Document_REDA_ATELIER_EXPLOITATION_DISTRIBUTION.pdf",
   },
 ];
 
