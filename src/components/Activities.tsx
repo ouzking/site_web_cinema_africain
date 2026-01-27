@@ -7,6 +7,14 @@ import {
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
+/* ===============================
+   FORMATAGE DATE STRICT (JJ/MM/AAAA)
+================================ */
+const formatDate = (date: string) => {
+  const [year, month, day] = date.split("-");
+  return `${day}/${month}/${year}`;
+};
+
 export default function Activities() {
   const { t } = useTranslation();
 
@@ -15,24 +23,28 @@ export default function Activities() {
       icon: GraduationCap,
       title: t("activities.items.training.title"),
       description: t("activities.items.training.description"),
+      date: "2026-01-01",
       accent: "from-blue-500 to-cyan-600",
     },
     {
       icon: Calendar,
       title: t("activities.items.releases.title"),
       description: t("activities.items.releases.description"),
+      date: "2026-02-15",
       accent: "from-amber-500 to-orange-600",
     },
     {
       icon: TrendingUp,
       title: t("activities.items.monitoring.title"),
       description: t("activities.items.monitoring.description"),
+      date: "2026-03-10",
       accent: "from-emerald-500 to-green-600",
     },
     {
       icon: Star,
       title: t("activities.items.events.title"),
       description: t("activities.items.events.description"),
+      date: "2026-04-22",
       accent: "from-red-500 to-pink-600",
     },
   ];
@@ -43,13 +55,15 @@ export default function Activities() {
       className="relative py-28 bg-gradient-to-b from-black via-gray-950 to-black text-white overflow-hidden"
     >
       {/* Décor lumière */}
-      <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,rgba(255,180,0,0.35),transparent_65%)]"></div>
+      <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,rgba(255,180,0,0.35),transparent_65%)]" />
 
       <div className="relative container mx-auto px-6">
-        {/* Titre */}
+
+        {/* ================= TITRE ================= */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
@@ -64,13 +78,14 @@ export default function Activities() {
           </p>
         </motion.div>
 
-        {/* Cartes activités */}
+        {/* ================= CARTES ACTIVITÉS ================= */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-24">
           {activities.map((activity, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ delay: index * 0.15, duration: 0.7 }}
               className="group relative bg-gradient-to-br from-gray-900 to-black border border-white/10 rounded-3xl p-8 hover:-translate-y-3 transition-all duration-300 shadow-[0_30px_60px_rgba(0,0,0,0.6)]"
             >
@@ -79,16 +94,25 @@ export default function Activities() {
                 className={`absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-500 bg-gradient-to-br ${activity.accent} rounded-3xl`}
               />
 
+              {/* Icône */}
               <div
                 className={`relative w-16 h-16 mb-6 rounded-2xl bg-gradient-to-br ${activity.accent} flex items-center justify-center`}
               >
                 <activity.icon className="w-8 h-8 text-white" />
               </div>
 
+              {/* Date (FORMAT FIXE) */}
+              <div className="relative flex items-center gap-2 text-xs text-gray-400 mb-3">
+                <Calendar size={14} />
+                {formatDate(activity.date)}
+              </div>
+
+              {/* Titre */}
               <h3 className="relative text-xl font-bold mb-4">
                 {activity.title}
               </h3>
 
+              {/* Description */}
               <p className="relative text-gray-400 leading-relaxed text-sm">
                 {activity.description}
               </p>
@@ -96,14 +120,15 @@ export default function Activities() {
           ))}
         </div>
 
-        {/* Focus événement */}
+        {/* ================= FOCUS ÉVÉNEMENT ================= */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.9 }}
           className="relative bg-gradient-to-r from-amber-500 via-orange-500 to-red-600 rounded-3xl p-10 md:p-16 text-black shadow-[0_40px_80px_rgba(0,0,0,0.6)] overflow-hidden"
         >
-          <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,white,transparent_70%)]"></div>
+          <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,white,transparent_70%)]" />
 
           <div className="relative text-center">
             <h3 className="text-3xl md:text-4xl font-extrabold mb-6">
@@ -114,6 +139,7 @@ export default function Activities() {
             </p>
           </div>
         </motion.div>
+
       </div>
     </section>
   );

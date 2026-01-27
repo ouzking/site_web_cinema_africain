@@ -4,6 +4,14 @@ import { Calendar, Tag, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 /* ===============================
+   FORMAT DATE : JJ/MM/AAAA
+================================ */
+const formatDate = (date: string) => {
+  const [year, month, day] = date.split("-");
+  return `${day}/${month}/${year}`;
+};
+
+/* ===============================
    FILTRES
 ================================ */
 const FILTERS = [
@@ -14,7 +22,7 @@ const FILTERS = [
 ];
 
 /* ===============================
-   DONNÉES ACTUALITÉS (SANS IMAGES)
+   DONNÉES ACTUALITÉS
 ================================ */
 const NEWS = [
   {
@@ -99,7 +107,7 @@ export default function Actualites() {
           ))}
         </div>
 
-        {/* ================= LISTE ÉDITORIALE ================= */}
+        {/* ================= LISTE ================= */}
         <div className="space-y-8">
           {filteredNews.map((item, index) => (
             <motion.article
@@ -110,10 +118,10 @@ export default function Actualites() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="relative rounded-2xl bg-white/5 border border-white/10 p-8 hover:border-amber-500/40 transition-all"
             >
-              {/* BARRE LATÉRALE */}
+              {/* Barre latérale */}
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-amber-500 to-red-600 rounded-l-2xl" />
 
-              {/* BADGE */}
+              {/* Badge */}
               {item.highlight && (
                 <span className="absolute top-6 right-6 px-4 py-1 text-xs font-bold uppercase tracking-widest
                   bg-gradient-to-r from-amber-500 to-red-600 text-black rounded-full">
@@ -121,11 +129,11 @@ export default function Actualites() {
                 </span>
               )}
 
-              {/* META */}
+              {/* Meta */}
               <div className="flex flex-wrap items-center gap-6 text-sm text-gray-400 mb-4">
                 <span className="flex items-center gap-2">
                   <Calendar size={14} />
-                  {item.date}
+                  {formatDate(item.date)}
                 </span>
                 <span className="flex items-center gap-2">
                   <Tag size={14} />
@@ -133,32 +141,26 @@ export default function Actualites() {
                 </span>
               </div>
 
-              {/* TITRE */}
+              {/* Titre */}
               <h3 className="text-2xl font-bold text-white mb-4 leading-snug">
                 {item.title}
               </h3>
 
-              {/* DESCRIPTION */}
+              {/* Description */}
               <p className="text-gray-400 max-w-3xl mb-6">
                 {t("news.description")}
               </p>
 
               {/* CTA */}
-              {item.document ? (
-  <a
-    href={item.document}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-3 text-amber-500 font-semibold hover:gap-5 transition-all"
-  >
-    {t("news.viewDocument")}
-    <ArrowRight size={18} />
-  </a>
-) : (
-  <span className="inline-flex items-center gap-3 text-gray-500 text-sm">
-    {t("news.noDocument")}
-  </span>
-)}
+              <a
+                href={item.document}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 text-amber-500 font-semibold hover:gap-5 transition-all"
+              >
+                {t("news.viewDocument")}
+                <ArrowRight size={18} />
+              </a>
             </motion.article>
           ))}
         </div>
